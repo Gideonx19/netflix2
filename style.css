@@ -113,25 +113,26 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-     border: solid 2px red;
-}
-.bottom .bottom1 img{
-    height: 350px;
-    position: relative;
-  
-  
+     /* border: solid 2px red; */
 }
 .bottom .bottom1 video{
+    height: 250px;
+    /* position: absolute; */
+    /* margin-left: 40em; */
+  
+  
+}
+/* .bottom .bottom1 video{
     height: 190px;
     margin-left: 48.8em;
-   position: absolute;
+   position: absolute; 
   
    
-}
+} */
 .bottom .bottom1 span{
     color: white;
     font-size: 25px;
-    width: 600px;
+    /* width: 600px; */
   
   
        
@@ -432,9 +433,9 @@ body{
 
 
 
-/* 
+
 @media(max-width:1075px){
- .bottom .bottom1 video{
+ /* .bottom .bottom1 video{
     margin-left: 31.8em;
     margin-top: -1em;
  }
@@ -442,7 +443,7 @@ body{
 
 @media(max-width:1006px){
     body{
-       max-width: 1006px;
+     
        height: 100%;
        background-size: 1370px 1300px;
     }
@@ -451,17 +452,18 @@ body{
     .bottom{
         height: 600px;
     }
-    .bottom .bottom1 img{
+    .bottom .bottom1 video{
         margin-top: 9em;
         margin-left: -4em;
         position: relative;
     }
- .bottom .bottom1 video{
+}
+ /* .bottom .bottom1 video{
  
    margin-left: 4em;
    height: 190px;
    margin-top: 8em; 
-}
+} */
   
 
     
@@ -487,6 +489,7 @@ body{
         /* border: solid medium red; */
        margin-top: -25em;
         position: absolute;
+        margin-left: 10em;
        
        
        
@@ -495,9 +498,9 @@ body{
         font-size: 25px;
     }
 
-    .bottom .bottom1 img{
+    .bottom .bottom1 video{
        margin-top: em;
-       margin-right: 4em;
+       margin-right: 7em;
      
        border: solid 2px red;
      
@@ -708,5 +711,11 @@ body{
     .bottom2 .bottom3 p {
       margin-top: -32em;
            
+       }
+       .bottom .bottom1{
+        height: 700px;
+       }
+       .bottom .bottom1 span{
+        width: 100%;
        }
 }
